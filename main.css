@@ -31,8 +31,10 @@ h6,
     border: 3px solid lightblue;
     border-radius: 3px;
     height: auto;
-    margin-right: 40px;
-    margin-left: 40px;
+}
+
+.carousel {
+    margin: 0 auto;
 }
 
 
@@ -97,7 +99,7 @@ h6,
 .title {
     margin-top: 10px;
     margin-bottom: 0;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
 }
 
