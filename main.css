@@ -27,15 +27,13 @@ h6,
     color: black;
 }
 
-
-/*
-   * Override Bootstrap's default container.
-   */
-
-@media (min-width: 1200px) {
-    .container {
-        width: 970px;
-    }
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+    background-color: transparent;
+    border: 3px solid lightblue;
+    border-radius: 3px;
+    display: block;
 }
 
 
@@ -57,6 +55,7 @@ h6,
     display: inline-block;
     padding: 10px;
     font-weight: 500;
+    font-size: 20px;
     color: #cdddeb;
 }
 
@@ -98,7 +97,7 @@ h6,
 }
 
 .title {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 0;
     font-size: 60px;
     font-weight: 400;
@@ -106,7 +105,7 @@ h6,
 
 .description {
     font-size: 20px;
-    color: #999;
+    color: rgb(90, 90, 90);
 }
 
 
