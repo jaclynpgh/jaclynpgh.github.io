@@ -11,5 +11,5 @@ function carousel() {
     slideIndex++;
     if (slideIndex > slides.length) { slideIndex = 1 }
     slides[slideIndex - 1].style.display = "block";
-    setTimeout(carousel, 3000); // change every three seconds
+    setTimeout(carousel, 3000); // change every two seconds
 }
