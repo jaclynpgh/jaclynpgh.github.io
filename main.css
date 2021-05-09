@@ -27,16 +27,10 @@ h6,
 }
 
 .carousel {
-    height: 500px;
     margin-bottom: 60px;
     background-color: transparent;
     border: 3px solid lightblue;
     border-radius: 3px;
-    height: auto;
-}
-
-.carousel img {
-    width: 100%;
     height: auto;
 }
 
