@@ -5,8 +5,8 @@
  */
 
 body {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #555;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
 }
 
 h1,
@@ -22,9 +22,9 @@ h5,
 h6,
 .h6 {
     margin-top: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gill Sans", sans-serif;
     font-weight: 400;
-    color: #333;
+    color: black;
 }
 
 
@@ -43,7 +43,7 @@ h6,
    * Masthead for nav
    */
 
-.blog-masthead {
+.masthead {
     background-color: #428bca;
     -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
     box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
@@ -52,7 +52,7 @@ h6,
 
 /* Nav links */
 
-.blog-nav-item {
+.nav-item {
     position: relative;
     display: inline-block;
     padding: 10px;
@@ -60,8 +60,8 @@ h6,
     color: #cdddeb;
 }
 
-.blog-nav-item:hover,
-.blog-nav-item:focus {
+.nav-item:hover,
+.nav-item:focus {
     color: #fff;
     text-decoration: none;
 }
@@ -69,11 +69,11 @@ h6,
 
 /* Active state gets a caret at the bottom */
 
-.blog-nav .active {
+.nav .active {
     color: #fff;
 }
 
-.blog-nav .active:after {
+.nav .active:after {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -89,32 +89,30 @@ h6,
 
 
 /*
-   * Blog name and description
+   * Name and description
    */
 
-.blog-header {
+.header {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.blog-title {
+.title {
     margin-top: 30px;
     margin-bottom: 0;
     font-size: 60px;
     font-weight: 400;
 }
 
-.blog-description {
+.description {
     font-size: 20px;
     color: #999;
 }
 
 
-/*
-   * Main column and sidebar layout
-   */
+/*Main column and sidebar layout*/
 
-.blog-main {
+.main {
     font-size: 18px;
     line-height: 1.5;
 }
@@ -155,30 +153,26 @@ h6,
 }
 
 
-/*
-   * Blog posts
-   */
+/*content*/
 
-.blog-post {
+.post {
     margin-bottom: 60px;
 }
 
-.blog-post-title {
+.post-title {
     margin-bottom: 5px;
     font-size: 40px;
 }
 
-.blog-post-meta {
+.post-meta {
     margin-bottom: 20px;
     color: #999;
 }
 
 
-/*
-   * Footer
-   */
+/* Footer */
 
-.blog-footer {
+.footer {
     padding: 40px 0;
     color: #999;
     text-align: center;
@@ -186,6 +180,6 @@ h6,
     border-top: 1px solid #e5e5e5;
 }
 
-.blog-footer p:last-child {
+.footer p:last-child {
     margin-bottom: 0;
 }
