@@ -33,9 +33,11 @@ h6,
     border: 3px solid lightblue;
     border-radius: 3px;
     display: block;
-    margin-left: 40px;
-    margin-right: 40px;
     width: 100%;
+}
+
+.carousel-inner img {
+    margin: auto;
 }
 
 
