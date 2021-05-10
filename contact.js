@@ -3,10 +3,9 @@
 $(function() {
 
 
-
     $('#contact-form').on('submit', function(e) {
         if (!e.isDefaultPrevented()) {
-            var url = "contact.php";
+            var url = "http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php";
 
             $.ajax({
                 type: "POST",
