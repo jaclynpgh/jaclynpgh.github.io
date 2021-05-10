@@ -157,11 +157,10 @@ h6,
     bottom: 0;
     left: 14%;
     margin: auto 0;
-    width: 50%
+    width: 75%
 }
 
 .list {
-    position: relative;
     bottom: 0;
     margin: auto 0;
     font-size: 15px;
