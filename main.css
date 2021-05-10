@@ -42,6 +42,22 @@ h6,
     width: 100%;
 }
 
+.image-item {
+    background-color: transparent;
+    border: 3px solid lightblue;
+    border-radius: 3px;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+..image {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
 
 /*
    * Masthead for nav
