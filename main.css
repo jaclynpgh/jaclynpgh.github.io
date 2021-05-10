@@ -242,3 +242,41 @@ Source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_download_b
 .btn:hover {
     background-color: RoyalBlue;
 }
+
+
+/*source: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp*/
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Github */
+
+.fa-github {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
