@@ -16,6 +16,7 @@ async function handleSubmit(event) {
         status.innerHTML = "Thanks for your submission!";
         form.reset()
     }).catch(error => {
+
         status.innerHTML = "Oops! There was a problem submitting your form"
     });
 }
