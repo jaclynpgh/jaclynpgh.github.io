@@ -1,5 +1,7 @@
 //https://formspree.io/forms/xpzkpzdz/integration
 //https://formspree.io/
+
+
 var form = document.getElementById("my-form");
 
 async function handleSubmit(event) {
@@ -12,7 +14,9 @@ async function handleSubmit(event) {
         headers: {
             'Accept': 'application/json'
         }
+
     }).then(response => {
+
         status.innerHTML = "Thanks for your submission!";
         form.reset()
     }).catch(error => {
