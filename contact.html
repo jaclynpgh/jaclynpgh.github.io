@@ -38,13 +38,14 @@
             <a href="https://www.linkedin.com/in/mannja" class="fa fa-linkedin"></a>
             <a href="https://github.com/jaclynpgh" class="fa fa-github"></a>
         </div>
-        <p>Connect with me on LinkedIn, check out my Github Respositories, or email me at jaclynsabo27@gmail.com. You can also send me a message via the following form.
+        <p>Let's chat! Connect with me on LinkedIn, Github, email me at <a href="mailto:jaclynsabo27@gmail.com">jaclynsabo27@gmail.com</a>, or fill out the following form to send me a message.
         </p>
         <br>
     </div>
 
     <div class="container2">
-        <form action="contact.php" method="POST">
+        <!--submit Form via POST using https://formspree.io/-->
+        <form action="https://formspree.io/f/xpzkpzdz" method="POST" id="my-form">
 
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="First Name">
@@ -59,8 +60,8 @@
             <label for="subject">Message</label>
             <textarea id="message" name="message" placeholder="Send me a message" style="height:170px"></textarea>
 
-            <input type="submit" value="Submit" id="submit">
-
+            <input type="submit" value="Submit" id="my-form-button">
+            <p id="my-form-status"></p>
         </form>
     </div>
 
@@ -69,7 +70,7 @@
     <footer class="blog-footer" style="text-align: center;">
         <a href="#">Back to top</a>
     </footer>
-
+    <script src="contact.js"></script>
 
 </body>
 
