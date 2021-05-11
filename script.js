@@ -1,4 +1,6 @@
 //https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto
+
+//makes images move
 var slideIndex = 0;
 carousel();
 
@@ -11,5 +13,5 @@ function carousel() {
     slideIndex++;
     if (slideIndex > slides.length) { slideIndex = 1 }
     slides[slideIndex - 1].style.display = "block";
-    setTimeout(carousel, 3000); // change every two seconds
+    setTimeout(carousel, 2000); // change every two seconds
 }

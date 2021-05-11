@@ -46,16 +46,14 @@
     <div class="container2">
         <!--submit Form via POST using https://formspree.io/-->
         <form action="https://formspree.io/f/xpzkpzdz" method="POST" id="my-form">
-
+            <!-- first name and email are required fields-->
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname" placeholder="First Name">
+            <input type="text" id="fname" name="fname" placeholder="First Name*" required>
 
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="name" placeholder="Last Name">
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
             <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Email Address">
-
-
+            <input type="email" id="email" name="email" placeholder="Email Address*">
 
             <label for="subject">Message</label>
             <textarea id="message" name="message" placeholder="Send me a message" style="height:170px"></textarea>
@@ -64,12 +62,27 @@
             <p id="my-form-status"></p>
         </form>
     </div>
+    <br>
+    <p class="content"> * First name and email address are required fields.</p>
+    <br>
 
+    <!--Script for invalid email address message
+    Source: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation-->
+    <script>
+        const email = document.getElementById("email");
+        const fname = document.getElementById("fname");
 
+        email.addEventListener("input", function(event) {
+            if (email.validity.typeMismatch) {
+                email.setCustomValidity("Please enter a valid e-mail address!");
+            } else {
+                email.setCustomValidity("");
+            }
 
-
+        });
+    </script>
+    <!--script for asynchronous call when submitting form-->
     <script src="contact.js"></script>
-
 </body>
 <footer class="blog-footer" style="text-align: center;">
     <a href="#">Back to top</a>
