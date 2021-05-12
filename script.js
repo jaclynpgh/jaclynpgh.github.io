@@ -1,6 +1,6 @@
 //https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto
 
-//makes images move
+//makes images slide on home screen
 var slideIndex = 0;
 carousel();
 
