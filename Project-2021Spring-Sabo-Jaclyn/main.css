@@ -1,0 +1,302 @@
+/*! Sources:
+ * Bootstrap v3.4.1 (https://getbootstrap.com/) CSS examples
+ * W3 Schools: https://www.w3schools.com/howto/howto_css_image_center.asp
+ */
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 0;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+
+/* carousel and image formating */
+
+.carousel-item {
+    background-color: transparent;
+    border: 3px solid lightblue;
+    border-radius: 3px;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.carousel {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.image-item {
+    background-color: transparent;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.image {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.image-quote {
+    background-color: transparent;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 0px
+}
+
+
+/*
+   * Masthead for nav
+   */
+
+.masthead {
+    background-color: #428bca;
+    -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* Nav links */
+
+.nav-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #cdddeb;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Active state gets a caret at the bottom */
+
+.nav .active {
+    color: #fff;
+}
+
+.nav .active:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-left: 5px solid transparent;
+}
+
+
+/*Name and description
+   */
+
+.header {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.title {
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.description {
+    margin-top: 5px;
+    font-size: 25px;
+    margin-left: 10px;
+    color: rgb(90, 90, 90);
+    margin-bottom: 0;
+}
+
+
+/*Main column and sidebar layout*/
+
+.main {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/*content*/
+
+.content {
+    position: relative;
+    bottom: 0;
+    left: 14%;
+    margin: auto 0;
+    width: 75%
+}
+
+.list {
+    bottom: 0;
+    margin: auto 0;
+    font-size: 15px;
+}
+
+
+/* Form 
+* Source: https://www.w3schools.com/howto/howto_css_contact_form.asp */
+
+
+/* Style inputs with type="text", select elements and textareas for form */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 5px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 5px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color*/
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/* Add a background color and some padding around the form */
+
+.container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+    width: 75%
+}
+
+
+/* Style buttons for Download button
+Source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_download_button*/
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 6px 22px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+/* Darker background on mouse-over */
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+
+/*source: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp*/
+
+
+/* Style all font awesome icons for social media icons */
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+/* hover effect */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Github and LinkedIn Icons */
+
+.fa-github {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
