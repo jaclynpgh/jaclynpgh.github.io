@@ -26,6 +26,15 @@ h6,
     color: black;
 }
 
+.gist {
+    width: 100% !important;
+}
+
+.gist-file .gist-data {
+    max-height: 500px;
+    max-width: 100%;
+}
+
 
 /* carousel and image formating */
 
