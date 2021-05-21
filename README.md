@@ -1,4 +1,4 @@
 CS 290 Web Developtment Portfolio Project
 using HTML, CSS, JavaScript, and BootStrap
 
-https://jaclynpgh.github.io/jaclynsabo.github.io/
+https://jaclynpgh.github.io/
