@@ -64,7 +64,7 @@ h6,
 
 .image {
     margin: 0 auto;
-    height: 100%;
+    height: 75%; /*updated height*/
     width: 100%;
 }
 
