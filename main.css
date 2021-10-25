@@ -43,19 +43,15 @@ h6,
     border: 3px solid lightblue;
     border-radius: 3px;
     margin: 0 auto;
-    width: 65%;
-    height: auto;
+    width: 75%;
     margin-top: 35px;
     margin-bottom: 10px;
 }
 
-
-/*carosel image */
-
 .carousel {
     margin: 0 auto;
-    height: 350px;
-    width: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 .image-item {
@@ -67,18 +63,16 @@ h6,
 }
 
 .image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
-    height: 350px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
 }
 
 .image-quote {
     background-color: transparent;
-    width: 50%;
-    height: 50px;
     margin: 0 auto;
+    width: 75%;
+    margin-top: 0px
 }
 
 
